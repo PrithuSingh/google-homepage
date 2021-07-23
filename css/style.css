@@ -1,0 +1,39 @@
+.container {
+    display: flex;    
+}
+
+.items {
+
+}
+
+.content {
+    margin: 200px auto 300px auto;
+    width: 300px;
+    text-align: center;
+}
+
+#searchbox {
+    background-image: url(/img/outline_search_black_24dp.png), url(/img/outline_mic_black_24dp.png);
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+input:hover {
+    box-shadow: 0 0 5px 0px gray;
+}
+
+.footer {
+    background-color: #f2f2f2;
+}
