@@ -1,10 +1,14 @@
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
     display: flex;
     color: gray;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
 }
 
 .left {
@@ -32,12 +36,13 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-size: 20px;
     border-radius: 10px;
-    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #more-apps {
     position: relative;
-    top: 6px;
+    top: 7px;
 }
 
 #sign-in {
@@ -62,7 +67,7 @@ input {
     height: 20px;
     width: 500px;
     border: 1px solid lightgray;
-    box-shadow: 0 0 1px 0px lightgray; 
+    box-shadow: 0 0 1px 0px lightgray;
 }
 
 button {
@@ -84,7 +89,8 @@ header {
     position: absolute;
     width: 100%;
     padding: 10px;
-    overflow:hidden; word-wrap:break-word;
+    overflow: hidden;
+    word-wrap: break-word;
 }
 
 footer {
@@ -93,4 +99,24 @@ footer {
     width: 100%;
     background-color: #f2f2f2;
     padding: 10px 20px 10px 20px;
+}
+
+@media (max-width: 660px) {
+    html {
+        font-size: 50%;
+    }
+
+    .content {
+        width: 60%;
+        height: 50%;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    #searchbox {
+        width: 80%;
+        height: 80%;
+    }
 }

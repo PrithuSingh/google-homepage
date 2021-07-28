@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
-    <link rel="reset" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <div class="left">
-        <div class="items"><a href="#">About</a></div>
-        <div class="items"><a href="#">Store</a></div>
-        </div>
-        <div class="right">
-        <div class="items"><a href="#">Gmail</a></div>
-        <div class="items"><a href="#">Images</a></div>
-        <div class="items"><img src="img/apps.png" alt="more" id="more-apps"></div>
-        <div class="items"><button id="sign-in">Sign in</button></div>
-        </div>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Google</title>
+        <link rel="reset" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="left">
+                <div class="items"><a href="#">About</a></div>
+                <div class="items"><a href="#">Store</a></div>
+            </div>
+            <div class="right">
+                <div class="items"><a href="#">Gmail</a></div>
+                <div class="items"><a href="#">Images</a></div>
+                <div class="items">
+                    <img src="img/apps.png" alt="more" id="more-apps" />
+                </div>
+                <div class="items"><button id="sign-in">Sign in</button></div>
+            </div>
+        </header>
 
-    <div class="content">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo">
-        <br>
-        <input type="text" id="searchbox">
-        <br>
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
-    </div>
+        <div class="content">
+            <img
+                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="googlelogo"
+            />
+            <br />
+            <form action="https://www.google.com/search">
+                <input type="text" id="searchbox" name="q" />
+                <br />
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </form>
+        </div>
 
-    <footer class="footer">
-        <div class="left">
-        <div class="items"><a href="#">Advertisment</a></div>
-        <div class="items"><a href="#">Business</a></div>
-        <div class="items"><a href="#">How Search Works</a></div>
-        </div>
-        <div class="right">
-        <div class="items"><a href="#">Privacy</a></div>
-        <div class="items"><a href="#">Terms</a></div>
-        <div class="items"><a href="#">Settings</a></div>
-        </div>
-    </footer>
-</body>
+        <footer class="footer">
+            <div class="left">
+                <div class="items"><a href="#">Advertisment</a></div>
+                <div class="items"><a href="#">Business</a></div>
+                <div class="items"><a href="#">How Search Works</a></div>
+            </div>
+            <div class="right">
+                <div class="items"><a href="#">Privacy</a></div>
+                <div class="items"><a href="#">Terms</a></div>
+                <div class="items"><a href="#">Settings</a></div>
+            </div>
+        </footer>
+    </body>
 </html>
